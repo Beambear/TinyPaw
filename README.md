@@ -3,7 +3,7 @@
 # **Project Title**
 Tiny Paws
 # **Github Repository**
-https://github.com/CS683/project-agam-purohit-jipeng-liu
+https://github.com/Beambear/TinyPaw
 # **Team Profile**
 
 |**Team Member**|**Experience & Qualifications & Strengths**|
@@ -44,7 +44,7 @@ UNlike other pet applications, like YOUCHONG PET, BELL PET, these applications f
 |Title|Account system|
 | :- | :- |
 |Description|As a user, I want to have an online account & password account to Synchronize data with cloud.|
-|Mockups|![](Aspose.Words.7d12b284-3bf7-481e-ad97-9cf261bee842.001.png)![](Aspose.Words.7d12b284-3bf7-481e-ad97-9cf261bee842.002.png)|
+|Mockups|![](https://github.com/Beambear/TinyPaw/blob/main/ReadMeSource/Aspose.Words.7d12b284-3bf7-481e-ad97-9cf261bee842.001.png)![](https://github.com/Beambear/TinyPaw/blob/main/ReadMeSource/Aspose.Words.7d12b284-3bf7-481e-ad97-9cf261bee842.002.png)|
 |Acceptance tests|User type in user\_id and user\_verification\_code. If they match the data in the cloud. App will show current account information at the left top corner, if not math, id = #0000. After that, user can sync local data with the cloud,  which includes “pets”, “foods”, “notes” and “username”. Upload button will upload local data to cloud, download will rewrite local data with cloud data.|
 |Test Result||
 |Status|<p>Iteration 0: implemented the project mind mapping.</p><p>Iteration 1: </p><p>- Created mockups, fragment and navigation designs</p><p>- Created ERD ver0.1</p><p>Iteration 2:</p><p>- Redesign sync logic and ui</p><p>- Coded xml file</p><p>Iteration 3:</p><p>- Nothing new</p><p></p>|
@@ -55,9 +55,9 @@ UNlike other pet applications, like YOUCHONG PET, BELL PET, these applications f
 |Title|Health management|
 | :- | :- |
 |Description|As a user, I want to have a page to record and track my pet's  information.|
-|Mockups|![](Aspose.Words.7d12b284-3bf7-481e-ad97-9cf261bee842.003.png)|
+|Mockups|![](https://github.com/Beambear/TinyPaw/blob/main/ReadMeSource/Aspose.Words.7d12b284-3bf7-481e-ad97-9cf261bee842.003.png)|
 |Acceptance tests|Users can type in any data in, click submit the database will update the new changes. There is a remove float fab to remove the current pet when users click on it.|
-|Test Result|![](Aspose.Words.7d12b284-3bf7-481e-ad97-9cf261bee842.004.png)|
+|Test Result|![](https://github.comBeambear/TinyPaw/blob/main/ReadMeSource/Aspose.Words.7d12b284-3bf7-481e-ad97-9cf261bee842.004.png)|
 |Status|<p>Iteration 1: </p><p>- Created mockups, fragment and navigation designs</p><p>- Created ERD ver0.1</p><p>- Created homepage bottom navigation bar</p><p>Iteration 2:</p><p>- Coded the MyPetEditFragment and related xml</p><p>- Coded pet data class, the database to store pet data, and the repository, adapter, viewmodel to manage data.</p><p>Iteration 3:</p><p>- Added a spinner to choose food</p><p>- Update out looks for buttons</p><p>- Update food data class, make it contains more attruibutes</p>|
 
 
@@ -65,9 +65,9 @@ UNlike other pet applications, like YOUCHONG PET, BELL PET, these applications f
 |Title|Diet calculator|
 | :- | :- |
 |Description|As a user, I want to know how much food I should feed my pet daily based on their body information.|
-|Mockups|![](Aspose.Words.7d12b284-3bf7-481e-ad97-9cf261bee842.005.png)|
+|Mockups|![](https://github.com/Beambear/TinyPaw/blob/main/ReadMeSource/Aspose.Words.7d12b284-3bf7-481e-ad97-9cf261bee842.005.png)|
 |Acceptance tests|<p>User added a pet with necessary body information.</p><p>App can calculate and show the pet’s daily calorie intake.</p>|
-|Test Result|![](Aspose.Words.7d12b284-3bf7-481e-ad97-9cf261bee842.006.png)|
+|Test Result|![](https://github.com/Beambear/TinyPaw/blob/main/ReadMeSource/Aspose.Words.7d12b284-3bf7-481e-ad97-9cf261bee842.006.png)|
 |Status|<p>Iteration 1:</p><p>- Created ERD ver0.1</p><p>Iteration 2:</p><p>- Coded the pet data class, food data class.</p><p>- Coded the PetDetailfragment and xml</p><p>Iteration 3:</p><p>- Can get food information from database</p><p>- Can calculate food weight and calorie intake based on pet weight and food unit calorie</p>|
 
 
@@ -75,9 +75,9 @@ UNlike other pet applications, like YOUCHONG PET, BELL PET, these applications f
 |Title|Multiple animals|
 | :- | :- |
 |Description|I have multiple pets, I want this app can store more than one pet information|
-|Mockups|![](Aspose.Words.7d12b284-3bf7-481e-ad97-9cf261bee842.007.png)|
+|Mockups|![](https://github.com/Beambear/TinyPaw/blob/main/ReadMeSource/Aspose.Words.7d12b284-3bf7-481e-ad97-9cf261bee842.007.png)|
 |Acceptance tests|This is a recycler list view, containing a list of pet data class card views. Users can click on the card view to check the pet detail page. Users can click the float fab to add a new pet.|
-|Test Result|![](Aspose.Words.7d12b284-3bf7-481e-ad97-9cf261bee842.008.png)|
+|Test Result|![](https://github.com/Beambear/TinyPaw/blob/main/ReadMeSource/Aspose.Words.7d12b284-3bf7-481e-ad97-9cf261bee842.008.png)|
 |Status|<p>Iteration 1:</p><p>- Created mockups, fragment and navigation designs</p><p>- Created myPet fragment, plan to hold multiple pets cardviews</p><p>Iteration 2:</p><p>- Coded the pet data class, related cardview, view model, database, adapter, and viewholder.</p><p>- Coded the recyclerview list xml file</p><p>- Created the page navigation graph</p><p>Iteration 3:</p><p>- Nothing new</p>|
 
 
@@ -88,7 +88,7 @@ UNlike other pet applications, like YOUCHONG PET, BELL PET, these applications f
 |Description|I have multiple pets, and they eat different food. I want this app can store more than one kind of food|
 |Mockups||
 |Acceptance tests|This is a recycler list view, containing a list of food data class card views. Users can click on the card view to check the food detail page. Users can click the float fab to add a new pet.|
-|Test Result|![](Aspose.Words.7d12b284-3bf7-481e-ad97-9cf261bee842.009.png)|
+|Test Result|![](https://github.com/Beambear/TinyPaw/blob/main/ReadMeSource/Aspose.Words.7d12b284-3bf7-481e-ad97-9cf261bee842.009.png)|
 |Status|<p>Iteration 3:</p><p>- Coded the recyclerview fragment, food cardview holder, food card adapter.</p><p>- Created the xml</p>|
 
 
@@ -99,7 +99,7 @@ UNlike other pet applications, like YOUCHONG PET, BELL PET, these applications f
 |Description|I want to record the food I purchased for pets, record its calorie information and write notes to record if this food is good or not.|
 |Mockups||
 |Acceptance tests|This is a food detail and edit page. Users can change the food name, food brand, and unit calorie. Click submit to save data into database, click remove to delete current food from database, click cancel to void any changes.|
-|Test Result|![](Aspose.Words.7d12b284-3bf7-481e-ad97-9cf261bee842.010.png)|
+|Test Result|![](https://github.com/Beambear/TinyPaw/blob/main/ReadMeSource/Aspose.Words.7d12b284-3bf7-481e-ad97-9cf261bee842.010.png)|
 |Status|<p>Iteration 3:</p><p>- Coded the food edit fragment</p><p>- Created the xml</p>|
 
 ### Desirable goal
@@ -140,7 +140,7 @@ UNlike other pet applications, like YOUCHONG PET, BELL PET, these applications f
 |Title|Notes page|
 | :- | :- |
 |Description|As a user, I want to have a new page to record feeding notes. And explore others’ notes.|
-|Mockups|![](Aspose.Words.7d12b284-3bf7-481e-ad97-9cf261bee842.011.png)|
+|Mockups|![](https://github.com/Beambear/TinyPaw/blob/main/ReadMeSource/Aspose.Words.7d12b284-3bf7-481e-ad97-9cf261bee842.011.png)|
 |Acceptance tests|Users can click the ‘explore’ button at the navigation bar. A new page for notes will show up.. |
 |Test Result||
 |Status|<p>Iteration 1:</p><p>- Created mockups, fragment and navigation designs</p><p>- Created explore fragment, plan to hold multiple notes cardiews.</p><p>Iteration 2:</p><p>- Relocated navigation graph for explore</p><p>Iteration 3:</p><p>- Nothing new</p>|
@@ -229,7 +229,7 @@ This project is a pet management application, it has two major targets and a min
 This application uses MVVM structure to manage data. The navigation graph of this project is shown below **NAV-1**.
 
 
-|![](Aspose.Words.7d12b284-3bf7-481e-ad97-9cf261bee842.012.png)|
+|![](https://github.com/Beambear/TinyPaw/blob/main/ReadMeSource/Aspose.Words.7d12b284-3bf7-481e-ad97-9cf261bee842.012.png)|
 | :- |
 |**NAV-1**|
 
@@ -237,39 +237,39 @@ This application uses MVVM structure to manage data. The navigation graph of thi
 
 To manage the two targets in the app, create a bottom navigation in the main activity. The bottom navigation contains three tabs, as shown in **IMG-1.1** ~ **IMG-1.3.** 
 
-|![](Aspose.Words.7d12b284-3bf7-481e-ad97-9cf261bee842.013.png)|![](Aspose.Words.7d12b284-3bf7-481e-ad97-9cf261bee842.014.png)|![](Aspose.Words.7d12b284-3bf7-481e-ad97-9cf261bee842.015.png)|
+|![](https://github.com/Beambear/TinyPaw/blob/main/ReadMeSource/Aspose.Words.7d12b284-3bf7-481e-ad97-9cf261bee842.013.png)|![](https://github.com/Beambear/TinyPaw/blob/main/ReadMeSource/Aspose.Words.7d12b284-3bf7-481e-ad97-9cf261bee842.014.png)|![](https://github.com/Beambear/TinyPaw/blob/main/ReadMeSource/Aspose.Words.7d12b284-3bf7-481e-ad97-9cf261bee842.015.png)|
 | :-: | :-: | :-: |
 |**IMG-1.1**|**IMG-1.2**|**IMG-1.3**|
 The bottom navigation code in MainActivity is displayed in **IMG-1.4**. Using binding to binding the mainActivity xml and mainActivity, created a navigation controller in mainActivity, and set the three tabs.
 
-|![](Aspose.Words.7d12b284-3bf7-481e-ad97-9cf261bee842.016.png)|
+|![](https://github.com/Beambear/TinyPaw/blob/main/ReadMeSource/Aspose.Words.7d12b284-3bf7-481e-ad97-9cf261bee842.016.png)|
 | :-: |
 |**IMG-1.4**|
 Then build the pet list recycler view. It needs to list the pet information card view. To create the card view, build a data class Pet, which contains pet body information. Created a database , related application, repository dao, adapter and card view holder class to store and manage the pet data into the database. The key related codes are displayed in the following table. 
 
 **IMG-2.1 ~ IMG-2.6**
 
-|![](Aspose.Words.7d12b284-3bf7-481e-ad97-9cf261bee842.017.png)|![](Aspose.Words.7d12b284-3bf7-481e-ad97-9cf261bee842.018.png)|
+|![](https://github.com/Beambear/TinyPaw/blob/main/ReadMeSource/Aspose.Words.7d12b284-3bf7-481e-ad97-9cf261bee842.017.png)|![](https://github.com/Beambear/TinyPaw/blob/main/ReadMeSource/Aspose.Words.7d12b284-3bf7-481e-ad97-9cf261bee842.018.png)|
 | :- | :- |
 |**IMG-2.1 Pet data class**|**IMG-2.2 Tiny Paw database class**|
-|![](Aspose.Words.7d12b284-3bf7-481e-ad97-9cf261bee842.019.png)|![](Aspose.Words.7d12b284-3bf7-481e-ad97-9cf261bee842.020.png)|
+|![](https://github.com/Beambear/TinyPaw/blob/main/ReadMeSource/Aspose.Words.7d12b284-3bf7-481e-ad97-9cf261bee842.019.png)|![](https://github.com/Beambear/TinyPaw/blob/main/ReadMeSource/Aspose.Words.7d12b284-3bf7-481e-ad97-9cf261bee842.020.png)|
 |**IMG-2.3 Application class**|**IMG-2.4 Pet Dao class**|
-|![](Aspose.Words.7d12b284-3bf7-481e-ad97-9cf261bee842.021.png)|![](Aspose.Words.7d12b284-3bf7-481e-ad97-9cf261bee842.022.png)|
+|![](https://github.com/Beambear/TinyPaw/blob/main/ReadMeSource/Aspose.Words.7d12b284-3bf7-481e-ad97-9cf261bee842.021.png)|![](https://github.com/Beambear/TinyPaw/blob/main/ReadMeSource/Aspose.Words.7d12b284-3bf7-481e-ad97-9cf261bee842.022.png)|
 |**IMG-2.5 Card Viewholder class**|**IMG-2.6 card view xml result**|
 For user add and edit pet information, the MVVM structure is used to manage data. There is an adapter to link data between database and viewmodel. Users can click the “+” fab and get navigated to add a new pet page. Coded a pet detail view to pop up when the user clicks the pet card view in the recycler list. Detail view has the basic pet information users have added, and an Edit button for navigating to a pet edit page. Users can edit pet information or remove current pets from the database here. Users can choose current feeding food from the current food spinner, which takes data from the database food table. The detail page and edit page xml view and viewmodel codes are displayed in the following table. **IMG-3.1 ~ IMG-3.4**
 
 
-|![](Aspose.Words.7d12b284-3bf7-481e-ad97-9cf261bee842.023.png)|![](Aspose.Words.7d12b284-3bf7-481e-ad97-9cf261bee842.024.png)|
+|![](https://github.com/Beambear/TinyPaw/blob/main/ReadMeSource/Aspose.Words.7d12b284-3bf7-481e-ad97-9cf261bee842.023.png)|![](https://github.com/Beambear/TinyPaw/blob/main/ReadMeSource/Aspose.Words.7d12b284-3bf7-481e-ad97-9cf261bee842.024.png)|
 | :-: | :-: |
 |**IMG-3.1 Pet Detail View**|**IMG-3.2 Pet Edit View**|
-|![](Aspose.Words.7d12b284-3bf7-481e-ad97-9cf261bee842.025.png)|![](Aspose.Words.7d12b284-3bf7-481e-ad97-9cf261bee842.026.png)|
+|![](https://github.com/Beambear/TinyPaw/blob/main/ReadMeSource/Aspose.Words.7d12b284-3bf7-481e-ad97-9cf261bee842.025.png)|![](https://github.com/Beambear/TinyPaw/blob/main/ReadMeSource/Aspose.Words.7d12b284-3bf7-481e-ad97-9cf261bee842.026.png)|
 |**IMG-3.3 Current Pet ViewModel code**|**IMG-3.4 Using ViewModel in list fragment**|
-|![](Aspose.Words.7d12b284-3bf7-481e-ad97-9cf261bee842.027.png)|![](Aspose.Words.7d12b284-3bf7-481e-ad97-9cf261bee842.028.png)|
+|![](https://github.com/Beambear/TinyPaw/blob/main/ReadMeSource/Aspose.Words.7d12b284-3bf7-481e-ad97-9cf261bee842.027.png)|![](https://github.com/Beambear/TinyPaw/blob/main/ReadMeSource/Aspose.Words.7d12b284-3bf7-481e-ad97-9cf261bee842.028.png)|
 |**IMG-3.5 Initialize spinner in fragment edit pet**|**IMG-3.6 Get food information and Calculate feeding suggestion in PetDetailFragment** |
 
 # **Project Structure**
 
-|![](Aspose.Words.7d12b284-3bf7-481e-ad97-9cf261bee842.029.png)|![](Aspose.Words.7d12b284-3bf7-481e-ad97-9cf261bee842.030.png)|
+|![](https://github.com/Beambear/TinyPaw/blob/main/ReadMeSource/Aspose.Words.7d12b284-3bf7-481e-ad97-9cf261bee842.029.png)|![](https://github.com/Beambear/TinyPaw/blob/main/ReadMeSource/Aspose.Words.7d12b284-3bf7-481e-ad97-9cf261bee842.030.png)|
 | :- | :-: |
 |**Project structure -1**|**Project structure -2**|
 #
@@ -310,7 +310,7 @@ In the next work duration, I will focus on making the Mypet part more functional
 `	`Is that ok if I just get data from a viewmodel without using an observer? It works at this moment, but I’m not sure if this meets the android development rules.
 
 
-|![](Aspose.Words.7d12b284-3bf7-481e-ad97-9cf261bee842.031.png)|
+|![](https://github.com/Beambear/TinyPaw/blob/main/ReadMeSource/Aspose.Words.7d12b284-3bf7-481e-ad97-9cf261bee842.031.png)|
 | :- |
 |**Q-1**|
 
