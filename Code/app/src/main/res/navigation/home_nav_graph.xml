@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/home_nav_graph"
+    app:startDestination="@id/myPetRecyclerViewFragment">
+
+    <fragment
+        android:id="@+id/myPetDetailFragment"
+        android:name="edu.bu.tinypaws.fragments.home.MyPetDetailFragment"
+        android:label="MyPetDetailFragment"
+        tools:layout="@layout/fragment_my_pet_detail">
+
+        <action
+            android:id="@+id/action_myPetDetailFragment_to_myPetEditFragment"
+            app:destination="@id/myPetEditFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/myPetEditFragment"
+        android:name="edu.bu.tinypaws.fragments.home.MyPetEditFragment"
+        android:label="MyPetEditFragment"
+        tools:layout="@layout/fragment_my_pet_edit">
+        <argument
+            android:name="position"
+            app:argType="integer"
+            android:defaultValue="0"/>
+        <action
+            android:id="@+id/action_myPetEditFragment_pop"
+            app:popUpTo="@id/myPetEditFragment"
+            app:popUpToInclusive="true" >
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/myPetAddFragment"
+        android:name="edu.bu.tinypaws.fragments.home.MyPetAddFragment"
+        android:label="MyPetAddFragment" >
+        <action
+            android:id="@+id/action_myPetAddFragment_pop"
+            app:popUpTo="@id/myPetAddFragment"
+            app:popUpToInclusive="true" >
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/myPetRecyclerViewFragment"
+        android:name="edu.bu.tinypaws.fragments.home.MyPetRecyclerViewFragment"
+        android:label="fragment_my_pet_recycler_view"
+        tools:layout="@layout/fragment_my_pet_recycler_view" >
+        <action
+            android:id="@+id/action_myPetRecyclerViewFragment_to_myPetDetailFragment"
+            app:destination="@id/myPetDetailFragment" />
+        <action
+            android:id="@+id/action_myPetRecyclerViewFragment_to_myPetAddFragment"
+            app:destination="@id/myPetAddFragment" />
+    </fragment>
+
+
+</navigation>

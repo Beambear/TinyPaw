@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="home_nav_tab_active">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/teal_200</item>
+    </style>
+
+    <style name="home_nav_tab_inactive">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="detail_title" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="submit_button">
+        <item name="android:background">@color/green</item>
+        <item name="android:text">"Submit"</item>
+    </style>
+
+</resources>
