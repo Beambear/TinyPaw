@@ -1,0 +1,21 @@
+.App {
+  background-color: #282c34; /* 设置背景颜色 */
+  min-height: 100vh; /* 设置最小高度为视口的100% */
+  display: flex; /* 使用flex布局 */
+  flex-direction: column; /* 设置flex方向为列 */
+  font-size: calc(10px + 2vmin); /* 使用计算表达式设置字体大小 */
+  background-color: #AEDFF7;
+  color: white; /* 设置文本颜色 */
+}
+
+.App-header {
+  width: 100%; /* 设置宽度为100% */
+  height: 60px; /* 设置高度为60px */
+  margin: 0; /* 设置外边距为0 */
+  padding: 0; /* 设置内边距为0 */
+  display: flex; /* 使用flex布局 */
+  align-items: center; /* 垂直居中子元素 */
+  justify-content: space-between; /* 水平方向上，子元素之间平均分配空间 */
+  background-color: #AEDFF7;; /* 设置背景颜色 */
+  color: white; /* 设置文本颜色 */
+}
